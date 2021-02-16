@@ -61,7 +61,7 @@ def arithmetic_arranger(lst, answers=None):
             inputCount = inputCount + 1
             folder.append(item.split())
         else :
-            arranged_problems = "error message goes here - one or more invalid imputs."
+            arranged_problems = "Error: one or more invalid imputs."
             return arranged_problems
     
     if answers == True :
